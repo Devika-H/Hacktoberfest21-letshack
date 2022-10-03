@@ -8,9 +8,7 @@ public class Factorial
         for(i=1;i<=n;i++)
         {
             for(int j=1;j<=i;j++)
-            {
                 f*=j;
-            }
             System.out.println("The Factorial of "+i+" is: "+f);
             f=1;
         }
